@@ -1,5 +1,5 @@
 package Solutions.Module_5;
-
+//Task 3
 public class M52{
     public static void main(String[] args){
       int[] array= {23, 6, 47, 35, 2, 14};
