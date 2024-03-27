@@ -1,5 +1,5 @@
 package Solutions.Module_5;
-
+//Task 2
 class M51{
     public static void main(String[] args){
        float arr[]={23, 6, 47, 35, 2, 14};
