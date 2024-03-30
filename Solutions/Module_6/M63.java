@@ -2,7 +2,7 @@
 
 class DemoOverloading{
     void test(){}
-    int test(int a){}
+    int test(int a){} 
     void test(int a , int b){}
     int test(int a , int b){ return a+b;}
     double test(double a){
