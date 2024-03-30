@@ -36,7 +36,7 @@ class ShoppingBag {
     }
 }
 
-public class Main {
+public class M62 {
     public static void main(String[] args) {
         
         ShoppingBag myBag = new ShoppingBag(8.5f); 
