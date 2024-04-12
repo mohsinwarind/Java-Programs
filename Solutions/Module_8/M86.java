@@ -1,14 +1,13 @@
 class Outer{
-    private int outer_num = 10;
     void Test(){
         Inner inner  = new Inner();
         inner.display();
     }
 
     class Inner{
-        
+        int inner_num = 10;
         public void display(){
-            System.out.println("The outer private Varibale is "+outer_num);
+            System.out.println("The Inner Varibale is "+inner_num);
         }
     }
 }
@@ -16,7 +15,7 @@ class Outer{
 /**
  * M87
  */
-public class M87 {
+public class M86 {
 
     public static void main(String[] args) {
         Outer outer = new Outer();
