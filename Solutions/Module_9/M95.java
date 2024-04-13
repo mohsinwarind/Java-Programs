@@ -92,3 +92,5 @@ public class M95 {
         System.out.println("\nHourly Employee Salary: $" + hourlyEmployee.calculateSalary());
     }
 }
+
+// Completed Module  9 :))))
