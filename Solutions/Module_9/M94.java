@@ -72,6 +72,7 @@ public class M94 {
     System.out.println("--Book Details--");
     System.out.print("Enter the title of book : ");
     book1.settitle(scan.nextLine());
+    
     System.out.print("Enter the Price : ");
     book1.setprice(scan.nextDouble());
     System.out.print("Enter the pages : ");
@@ -84,7 +85,10 @@ public class M94 {
     System.out.println();
     System.out.println("--Tape Details--");
     System.out.print("Enter the title  : ");
-    tape1.settitle(scan.nextLine());
+    String title  = scan.nextLine();
+    scan.nextLine();
+    tape1.settitle(title);
+    
     System.out.print("Enter the Price : ");
     tape1.setprice(scan.nextDouble());
     scan.nextLine(); 
